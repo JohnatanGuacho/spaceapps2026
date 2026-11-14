@@ -1,0 +1,34 @@
+================================================================================
+TRANSFERENCIA TECNOLÓGICA (EARTH SPIN-OFF): TANQUES DE AIRE PARA BOMBEROS (1976)
+Fuente: NASA Spinoff 1976 — Johnson Space Center (Document ID: 20030005480)
+================================================================================
+
+1. METADATOS DE LA TRANSFERENCIA
+- Tecnología / Producto comercial: "Air Pak 4.5" (Equipo de respiración autónoma SCBA)[cite: 4]
+- Empresa desarrolladora: Scott Aviation (división de A-T-O Inc.) junto con NASA Johnson Space Center y Public Technology Inc.[cite: 3, 4]
+- Año de publicación / lanzamiento: 1975–1976[cite: 4]
+- Origen espacial: Conceptos y hardware de soporte vital desarrollados por NASA-Johnson para astronautas en actividades extravehiculares (EVA) y en la superficie lunar[cite: 3].
+
+2. PROBLEMA TERRESTRE RESUELTO
+- Limitación previa: Los equipos de respiración convencionales para bomberos eran excesivamente pesados y restringían la movilidad y la visión, provocando que muchos bomberos evitaran usarlos en incendios con consecuencias fatales[cite: 3].
+
+3. ESPECIFICACIONES TÉCNICAS E INNOVACIONES CLAVE
+- Reducción de peso: El sistema completo pesa solo 20 libras (para un suministro de aire de 30 minutos), lo que representa 13 libras menos que los tanques convencionales de la época[cite: 3].
+- Alta presión de almacenamiento: Presurizado a 4,500 psi (aproximadamente el doble de presión que los tanques tradicionales)[cite: 3].
+- Materiales compuestos: Cilindro fabricado con un revestimiento interno de aluminio envuelto en fibras de vidrio impregnadas en resina, eliminando la corrosión y reduciendo el peso estructural[cite: 3].
+- Ergonomía y seguridad operacional:
+  * Arnés y bastidor rediseñados para transferir la mayor parte del peso a las caderas en lugar de los hombros[cite: 3].
+  * Máscara facial rediseñada que amplía el campo de visión[cite: 3].
+  * Alarma personalizada de bajo nivel de aire: dispositivo auditivo individual que solo escucha el bombero que lo porta, evitando confusión acústica en entornos ruidosos de emergencia[cite: 3].
+
+4. VALIDACIÓN Y APLICACIONES SECUNDARIAS ("SPIN-OFFS" DERIVADOS)
+- Pruebas en campo: Validado y refinado mediante pruebas operacionales con los departamentos de bomberos de Houston, Los Ángeles y Nueva York[cite: 3].
+- Adopción industrial adicional:
+  * Structural Composites Industries Inc. comercializó cilindros compuestos similares[cite: 4].
+  * The Boeing Co. evaluó estos tanques ligeros para inflar rampas de evacuación de emergencia en aviones Boeing 747[cite: 4].
+  * Martin-Marietta Corp. los utilizó para presurizar balsas salvavidas de la Marina[cite: 4].
+
+5. CONEXIÓN CON NASA PSI Y SEGURIDAD CONTRA INCENDIOS ESPACIALES
+- Protección respiratoria en atmósferas tóxicas: Responde directamente a la lección crítica de incidentes como Apollo 1 (asfixia por CO) y Mir 1997 (uso inmediato de máscaras de oxígeno ante humo denso en microgravedad)[cite: 1].
+- Almacenamiento seguro de gases a alta presión: Relacionado con los estándares de seguridad de recipientes a presión y compatibilidad de materiales evaluados en investigaciones de combustión de la NASA (BASS-II / FLEX / ACME)[cite: 1].
+================================================================================

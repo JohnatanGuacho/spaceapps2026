@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "source_title": "A Researcher's Guide to International Space Station Combustion Science",
+    "document_id": "NP-2015-10-034-JSC",
+    "publication_date": "October 2015",
+    "authors": [
+      "Suleyman A. Gokoglu",
+      "Daniel L. Dietrich",
+      "Dennis P. Stocker",
+      "Paul V. Ferkul",
+      "Sandy L. Olson",
+      "Michael C. Hicks"
+    ]
+  },
+  "facilities_and_hardware": [
+    {
+      "id": "CIR-MDCA",
+      "name": "Multi-user Droplet Combustion Apparatus (MDCA)",
+      "parent_rack": "Combustion Integrated Rack (CIR)",
+      "up_mass_kg": 254,
+      "volume_m3": 0.48,
+      "power_kw": 0.73,
+      "data_volume_gb": 72,
+      "operating_envelope": "Gotas de 1 a 5 mm (libres o en fibra), presión 0–3 atm, hasta 40% O2 con gases inertes",
+      "diagnostics": [
+        "Cámara analógica a color",
+        "Radiómetro",
+        "Cámara UV de bajo nivel de luz",
+        "Dos cámaras HiBMs"
+      ],
+      "supported_experiments": ["FLEX", "FLEX-2", "CFI", "FLEX-ICE-GA", "FLEX-2J"]
+    },
+    {
+      "id": "CIR-ACME",
+      "name": "Advanced Combustion via Microgravity Experiments (ACME) Insert",
+      "parent_rack": "Combustion Integrated Rack (CIR)",
+      "up_mass_kg": 250,
+      "volume_m3": 0.5,
+      "power_kw": 0.75,
+      "data_volume_gb": 72,
+      "operating_envelope": "Llamas de difusión laminares gaseosas (quemadores esféricos porosos, placa porosa y chorro coaxial)",
+      "diagnostics": [
+        "Radiómetros",
+        "Cámaras de dos colores",
+        "Cámara UV de bajo nivel de luz",
+        "Dos cámaras HiBMs",
+        "Tubos fotomultiplicadores",
+        "Medición de corriente iónica",
+        "Cromatógrafo de gases"
+      ],
+      "supported_experiments": ["BRE", "CLD Flame", "E-FIELD Flames", "Flame Design", "s-Flame", "CFI-G"]
+    },
+    {
+      "id": "CIR-SOFIE",
+      "name": "Solid Fuel Ignition and Extinction (SoFIE) Insert",
+      "parent_rack": "Combustion Integrated Rack (CIR)",
+      "up_mass_kg": 250,
+      "volume_m3": 0.5,
+      "power_kw": 0.75,
+      "data_volume_gb": 72,
+      "operating_envelope": "Combustibles sólidos (PMMA, Delrin) en atmósferas de exploración (SEA): 10%–40% O2, 0.2–1.5 atm, flujo 0–30 cm/s",
+      "diagnostics": [
+        "Radiómetros",
+        "Cámaras de dos colores",
+        "Cámara UV de bajo nivel de luz",
+        "Dos cámaras HiBMs",
+        "Tubos fotomultiplicadores",
+        "Cromatógrafo de gases"
+      ],
+      "supported_experiments": ["Flame Spread", "GEL", "Narrow Channel", "SMuRF", "MIST"]
+    },
+    {
+      "id": "MSG",
+      "name": "Microgravity Science Glovebox (MSG)",
+      "parent_rack": "U.S. Laboratory (Ducto de flujo SPICE)",
+      "up_mass_kg": 40,
+      "volume_m3": 0.1,
+      "power_kw": 0.05,
+      "data_volume_gb": 10,
+      "operating_envelope": "Volumen cerrado de 255 L a presión negativa (doble contención), aire ISS (21% O2) o diluido con N2 hasta 17% O2, flujo 0–30 cm/s",
+      "diagnostics": [
+        "Cámara digital fija",
+        "Cámara de video",
+        "Sensores de flujo de aire",
+        "Sensores de flujo de combustible",
+        "Radiómetro"
+      ],
+      "supported_experiments": ["BASS", "BASS-II", "SPICE", "SLICE", "SAME", "SAME-R"]
+    }
+  ],
+  "investigations": [
+    {
+      "psi_id": "PSI-26 / PSI-25",
+      "acronym": "BASS / BASS-II",
+      "title": "Burning and Suppression of Solids",
+      "pillar": "prevention_and_suppression",
+      "hardware": "MSG (Microgravity Science Glovebox)",
+      "fuels": ["Acrílico (PMMA) esferas 2 cm y láminas", "Tela Sibal (75% algodón / 25% fibra de vidrio)", "Velas y bloques de cera"],
+      "fuel_state": "solid",
+      "test_conditions": {
+        "o2_percent_range": [17.0, 21.0],
+        "pressure_atm": 1.0,
+        "airflow_cms_range": [0.0, 12.0],
+        "gravity_g": 0.0
+      },
+      "key_finding": "En microgravedad con ventilación adecuada, los materiales arden igual o mejor que en 1g y a concentraciones de O2 más bajas que el estándar terrestre NASA-STD-6001 Test 1. Además, aplicar un chorro local de nitrógeno puede avivar la llama al arrastrar oxígeno circundante.",
+      "earth_application": "Validación de modelos computacionales de incendios y mejora de normativas de inflamabilidad de materiales."
+    },
+    {
+      "psi_id": "PSI-69 / PSI-68",
+      "acronym": "FLEX / FLEX-2",
+      "title": "Flame Extinguishment Experiment",
+      "pillar": "suppression",
+      "hardware": "CIR / MDCA",
+      "fuels": ["n-heptano", "metanol", "etanol", "sustitutos de combustibles líquidos"],
+      "fuel_state": "liquid_droplet",
+      "test_conditions": {
+        "o2_percent_range": [10.0, 40.0],
+        "pressure_atm_range": [0.5, 3.0],
+        "diluents": ["Nitrógeno (N2)", "Dióxido de carbono (CO2)", "Helio (He)", "Xenón (Xe)"],
+        "gravity_g": 0.0
+      },
+      "key_finding": "El Índice Límite de Oxígeno (LOI) es significativamente menor en microgravedad que en Tierra (los estándares terrestres de supresores gaseosos no ofrecen el mismo margen de seguridad). Descubrió las 'llamas frías' (cool flames) invisibles que continúan vaporizando combustible tras apagarse la llama caliente.",
+      "earth_application": "Diseño de motores de combustión interna más limpios y eficientes (HCCI/RCCI) y sistemas de extinción por gases inertes."
+    },
+    {
+      "psi_id": "PSI-20",
+      "acronym": "ACME BRE",
+      "title": "Burning Rate Emulator",
+      "pillar": "prevention",
+      "hardware": "CIR / ACME (quemador plano poroso)",
+      "fuels": ["Combustibles gaseosos que emulan papel, plástico y alcohol"],
+      "fuel_state": "gas_emulating_solid",
+      "test_conditions": {
+        "o2_percent_range": [15.0, 40.0],
+        "airflow_cms": 0.0,
+        "gravity_g": 0.0
+      },
+      "key_finding": "Emula la tasa de quemado, temperatura superficial y generación de humo de materiales sólidos y líquidos en atmósferas quietas de baja gravedad y gravedad parcial para evaluar qué tan válidos son los métodos terrestres de prueba.",
+      "earth_application": "Evaluación rápida de inflamabilidad de nuevos materiales sin ensayos destructivos complejos."
+    },
+    {
+      "psi_id": "PSI-22",
+      "acronym": "ACME E-FIELD Flames",
+      "title": "Electric-Field Effects on Laminar Diffusion Flames",
+      "pillar": "partial_gravity_bounding",
+      "hardware": "CIR / ACME (campo eléctrico hasta 10 kV)",
+      "fuels": ["Hidrocarburos gaseosos (metano, etileno)"],
+      "fuel_state": "gas",
+      "test_conditions": {
+        "voltage_kv_max": 10.0,
+        "gravity_g": 0.0
+      },
+      "key_finding": "Usa campos eléctricos de alto voltaje sobre los iones de la llama ('viento iónico') para modificar su forma y transferencia de calor, permitiendo imitar efectos de gravedad parcial en microgravedad.",
+      "earth_application": "Control activo de llamas industriales y reducción de emisiones contaminantes."
+    },
+    {
+      "psi_id": "PSI-107 / PSI-106",
+      "acronym": "SPICE / SLICE",
+      "title": "Smoke Point In Coflow / Structure & Liftoff In Combustion Experiment",
+      "pillar": "prevention_and_detection",
+      "hardware": "MSG (ducto de flujo forzado)",
+      "fuels": ["Metano", "Etileno"],
+      "fuel_state": "gas",
+      "test_conditions": {
+        "airflow_cms_range": [1.0, 30.0],
+        "gravity_g": 0.0
+      },
+      "key_finding": "Define el punto de humo (transición de llama limpia a generadora de hollín) y las velocidades de flujo que desprenden o extinguen llamas laminares en microgravedad.",
+      "earth_application": "Diseño de quemadores industriales y turbinas con mínimas emisiones de hollín."
+    },
+    {
+      "psi_id": "PSI-102 / PSI-101",
+      "acronym": "SAME / SAME-R / DAFT",
+      "title": "Smoke and Aerosol Measurement Experiment & Dust Aerosol Feasibility Test",
+      "pillar": "detection",
+      "hardware": "MSG",
+      "fuels": ["Materiales de nave espacial (espuma Pyrell, cables, celulosa)"],
+      "fuel_state": "aerosol_smoke",
+      "test_conditions": {
+        "gravity_g": 0.0
+      },
+      "key_finding": "El tamaño de las partículas de humo en microgravedad difiere radicalmente de la Tierra por ausencia de flotabilidad. Los detectores terrestres fallan o dan falsas alarmas; se requieren sensores que midan partículas y especies químicas simultáneamente.",
+      "earth_application": "Detectores de humo avanzados para aviación (probados con la FAA) e industria minera con rechazo de falsas alarmas por polvo."
+    },
+    {
+      "psi_id": "STS-107-MIST",
+      "acronym": "Mist",
+      "title": "Water Mist Fire Suppression Experiment",
+      "pillar": "suppression",
+      "hardware": "Combustion Module (CM) / Extintores portátiles ISS",
+      "fuels": ["Mezclas premezcladas de combustible y oxígeno"],
+      "fuel_state": "gas_with_water_mist",
+      "test_conditions": {
+        "gravity_g": 0.0
+      },
+      "key_finding": "Demostró la eficacia de gotas finas de agua no tóxicas para extinguir llamas en espacio reemplazando al Halon prohibido y complementando al CO2.",
+      "earth_application": "Extintores portátiles de niebla fina de agua certificados e instalados en la ISS (desde dic. 2015) y aplicados en protección contra incendios en Tierra."
+    }
+  ],
+  "microgravity_fire_physics_rules": [
+    {
+      "rule_id": "RULE-01-QUIESCENT-FLAME",
+      "myth_debunked": "Mito: Un fuego estacionario no puede existir sin gravedad ni ventilación.",
+      "scientific_fact": "Falso. En 0g, una llama de vela puede arder por difusión durante más de 45 minutos (casi invisible a simple vista) y las bolas de llama premezcladas (SOFBALL) arden más de 40 minutos a solo ~1 Watt.",
+      "backend_action": "Nunca marcar riesgo CERO cuando flujo = 0 cm/s; activar alerta de combustión difusiva silenciosa y monitoreo de aerosoles (SAME)."
+    },
+    {
+      "rule_id": "RULE-02-LOW-FLOW-PEAK-HAZARD",
+      "myth_debunked": "Mito: Apagar la ventilación extingue el fuego de inmediato o los estándares terrestres son conservadores.",
+      "scientific_fact": "Falso. Existe una zona crítica de baja velocidad de flujo (~10 cm/s, típica de ventilación de naves) donde la inflamabilidad alcanza su punto máximo y los materiales arden con MENOS oxígeno que en Tierra (haciendo que NASA-STD-6001 Test 1 no sea conservador).",
+      "backend_action": "Elevar nivel de riesgo a ALTO/CRÍTICO si flujo está entre 2 y 15 cm/s en 0g o gravedad parcial, incluso con O2 <= 21%."
+    },
+    {
+      "rule_id": "RULE-03-UPSTREAM-SPREAD",
+      "myth_debunked": "Mito: El fuego se propaga en la dirección del flujo de aire.",
+      "scientific_fact": "En microgravedad con flujos lentos, las llamas sobre combustibles delgados se propagan preferentemente CORRIENTE ARRIBA (hacia la fuente de oxígeno fresco), al revés que en la Tierra.",
+      "backend_action": "Advertir en el protocolo de corte que el fuego avanzará hacia los ductos de suministro de aire si no se sellan."
+    },
+    {
+      "rule_id": "RULE-04-EXTINGUISHER-ENTRAINMENT",
+      "myth_debunked": "Mito: Disparar un chorro local de gas inerte (N2) siempre apaga la llama.",
+      "scientific_fact": "Resultados de BASS mostraron que un chorro local de nitrógeno puede arrastrar oxígeno ambiental hacia la llama y fortalecerla en microgravedad.",
+      "backend_action": "Recomendar inundación/dilución total del compartimento cerrado (FLEX) o niebla fina de agua (Mist) en lugar de chorros puntuales no confinados."
+    },
+    {
+      "rule_id": "RULE-05-COOL-FLAME-REIGNITION",
+      "myth_debunked": "Mito: Si la llama visible se apaga, el incendio terminó.",
+      "scientific_fact": "En combustibles líquidos/hidrocarburos (FLEX), tras extinguirse la llama caliente por radiación, puede persistir una 'llama fría' invisible a baja temperatura que sigue vaporizando combustible y puede re-encenderse espontáneamente.",
+      "backend_action": "Mantener protocolo de monitoreo post-extinción (sensores IR/químicos) durante la fase de enfriamiento."
+    }
+  ]
+}

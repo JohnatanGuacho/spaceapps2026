@@ -1,0 +1,33 @@
+================================================================================
+TRANSFERENCIA TECNOLÓGICA (EARTH SPIN-OFF): TRAJES IGNÍFUGOS PARA BOMBEROS (1982)
+Fuente: NASA Spinoff 1982 — Marshall Space Flight Center (Document ID: 20030002834)
+================================================================================
+
+1. METADATOS DE LA TRANSFERENCIA
+- Programa / Tecnología: Project FIRES (Firefighters' Integrated Response Equipment System)[cite: 6]
+- Patrocinadores y gestión técnica: Patrocinado conjuntamente por NASA y la Administración de Incendios de EE. UU. (USFA / FEMA), con gestión técnica del Marshall Space Flight Center (MSFC) y participación de un Comité de Requerimientos de Usuarios del sector bomberil[cite: 6].
+- Contratista principal: Grumman Advanced Development Division (Bethpage, Nueva York)[cite: 6].
+- Año de publicación / evaluación: 1982–1983 (tras 5 años de estudio y desarrollo)[cite: 6, 7].
+- Origen espacial: Materiales avanzados y conceptos de diseño térmico derivados de los trajes espaciales y componentes de protección térmica del programa Apollo, desarrollados tras el trágico incendio del Apollo 1 en 1967[cite: 7].
+
+2. PROBLEMA TERRESTRE RESUELTO
+- Limitación previa: El equipo de protección tradicional de los bomberos ("turnouts") no había cambiado en medio siglo; era excesivamente pesado, restringía la movilidad y provocaba agotamiento y estrés térmico severo (causa de casi la mitad de las muertes anuales de bomberos)[cite: 6, 7].
+
+3. ESPECIFICACIONES TÉCNICAS Y MATERIALES CLAVE
+- Reducción de peso: El conjunto completo FIRES pesa solo ~12.5 libras, lo que representa una reducción del 40% respecto al equipo convencional de la época[cite: 7].
+- Capa exterior ignífuga (PBI® y Nomex®/Kevlar®):
+  * Polibenzimidazol (PBI®), producido por Celanese Corp. en conjunto con la NASA y el Laboratorio de Materiales de la Fuerza Aérea tras el incendio de Apollo 1[cite: 7]. No arde ni se derrite a las temperaturas de incendios estructurales, ofrece alta resistencia a la abrasión y mantiene flexibilidad[cite: 7].
+  * Mezclas de Nomex® y Kevlar® (producidas por DuPont) evaluadas con propiedades térmicas y mecánicas similares[cite: 7].
+- Barrera de vapor transpirable (GORE-TEX®):
+  * Capa intermedia de película ligera GORE-TEX® (W. L. Gore & Associates) con ~9 mil millones de poros por pulgada cuadrada (cada poro es 700 veces más grande que una molécula de vapor de agua, pero 20,000 veces más pequeño que una gota de agua)[cite: 7].
+  * Mantiene el traje impermeable al agua exterior mientras permite disipar el sudor y el calor corporal, protegiendo contra el estrés térmico[cite: 7].
+- Protección integral del conjunto: Incluye chaqueta (versiones corta y larga), pantalón, casco, visor facial, botas y guantes sometidos a pruebas de resistencia al calor, impacto, corte y penetración[cite: 6, 7].
+
+4. VALIDACIÓN EN CAMPO E IMPACTO NACIONAL
+- Pruebas operacionales: Evaluación nacional de 9 meses (hasta 1983) en 14 departamentos de bomberos municipales de EE. UU. (incluyendo el Departamento de Bomberos de Alexandria, Virginia) cubriendo distintos climas y frecuencias de alarma[cite: 6, 7].
+- Estandarización: Los datos recolectados sirvieron de base para establecer nuevos estándares nacionales de vestimenta de protección contra incendios en EE. UU.[cite: 7]
+
+5. CONEXIÓN CON NASA PSI Y SEGURIDAD CONTRA INCENDIOS ESPACIALES
+- Conexión histórica directa: Nace explícitamente como respuesta tecnológica de la NASA al incendio de Apollo 1 (1967)[cite: 7].
+- Pilar de Prevención y Selección de Materiales en PSI: Conectado directamente con BASS (PSI-26) y BASS-II (PSI-25) —que evalúan la inflamabilidad de telas como Nomex y compuestos algodón-fibra de vidrio (Sibal) en microgravedad— y con SAFFIRE-I/II/III (PSI-98, PSI-99, PSI-100) sobre comportamiento de textiles en incendios de cabina[cite: 1, 7].
+================================================================================

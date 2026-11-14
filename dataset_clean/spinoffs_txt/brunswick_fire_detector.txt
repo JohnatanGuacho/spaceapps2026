@@ -1,0 +1,27 @@
+================================================================================
+TRANSFERENCIA TECNOLÓGICA (EARTH SPIN-OFF): DETECTOR DE FUEGO INCIPIENTE (1978)
+Fuente: NASA Spinoff 1978 — NASA Headquarters (Document ID: 20070018916)
+================================================================================
+
+1. METADATOS DE LA TRANSFERENCIA
+- Tecnología / Producto: Brunswick Incipient Fire Detector (Detector de Incendios Incipientes)[cite: 5]
+- Empresa desarrolladora: Brunswick Corporation Defense Division[cite: 5]
+- Año de publicación: 1978[cite: 5]
+- Origen espacial: Sensor de alerta temprana desarrollado originalmente para los orbitadores del Transbordador Espacial (Space Shuttle Orbiter) de la NASA[cite: 5].
+
+2. PROBLEMA TERRESTRE RESUELTO
+- Limitación previa: Los detectores de humo comerciales convencionales solo reaccionan cuando ya existe humo visible o llama, y son altamente susceptibles a falsas alarmas provocadas por polvo ambiental en entornos industriales severos[cite: 5].
+
+3. ESPECIFICACIONES TÉCNICAS E INNOVACIONES CLAVE
+- Detección en etapa incipiente: Opera mediante muestreo continuo de aire para detectar partículas de combustión antes de que aparezcan llamas o humo visible, otorgando un margen crítico de seguridad[cite: 5].
+- Discriminación humo vs. polvo: A diferencia de equipos anteriores, el sensor distingue entre partículas reales de combustión y materia extraña como el polvo, reduciendo drásticamente las falsas alarmas[cite: 5].
+- Arquitectura centralizada y localización exacta: Permite enlazar múltiples sensores a una unidad central de procesamiento y visualización (central fire watch system) que alerta al instante de un fuego incipiente y señala su ubicación exacta[cite: 5].
+
+4. VALIDACIÓN Y APLICACIONES INDUSTRIALES EN LA TIERRA
+- Minería y maquinaria pesada: Evaluado en un ensayo de un año por el Bureau of Mines del Departamento del Interior de EE. UU.[cite: 5] Se instalaron sensores en una perforadora rotativa Bucyrus-Erie de Peabody Coal Company (Lynnville, Indiana) para prevenir incendios por fricción y chispas en componentes electromecánicos de alto costo[cite: 5].
+- Infraestructura crítica y defensa: Aplicado y evaluado para proteger personal y equipos de alto valor en fábricas, centros de comunicaciones, centrales eléctricas, aeronaves militares (en pruebas) y portaaviones (en estudio)[cite: 5].
+
+5. CONEXIÓN CON NASA PSI Y SEGURIDAD CONTRA INCENDIOS ESPACIALES
+- Pilar de Detección en PSI: Es el antecedente directo de las investigaciones SAME (PSI-102) y SAME-R (PSI-101), que cuantifican el tamaño de partículas de humo en microgravedad para evitar falsas alarmas (como el incidente de la misión Artemis II citado en el reto)[cite: 1, 5].
+- Discriminación polvo vs. aerosol: Conectado directamente con los estudios DAFT y DAFT-2, que reutilizaron hardware de detección de humo de SAME para medir polvo en cabina (un factor crítico en futuros hábitats lunares y marcianos por el regolito)[cite: 1, 5].
+================================================================================

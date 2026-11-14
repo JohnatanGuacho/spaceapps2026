@@ -1,0 +1,44 @@
+{
+  "id": "FUTURE-FM2",
+  "acronym": "FM2",
+  "title": "Flammability of Materials on the Moon",
+  "status": "Planned Lunar Surface Payload (Target: Late 2026)",
+  "pillar": "partial_gravity_bounding",
+  "research_type": "Lunar Surface Investigation (1/6 g)",
+  "hardware": {
+    "name": "FM2 Autonomous Sealed Combustion Chamber",
+    "dimensions_cm": "28.5 x 28.5 x 38.5",
+    "mass_kg": 25.0,
+    "gas_supply": "3 cilindros presurizados externos",
+    "sample_geometry": "4 muestras planas individuales (2 cm x 20 cm expuestas por ambas caras) con ignitores de alambre caliente"
+  },
+  "team": {
+    "principal_investigator": "Dr. Paul Ferkul (USRA / NASA Glenn Research Center)",
+    "co_investigators": [
+      "Prof. Ya-Ting Liao (Case Western Reserve University)",
+      "Dr. Michael Johnston (NASA Glenn Research Center)"
+    ],
+    "project_manager": "Amber Krauss (NASA Glenn Research Center)"
+  },
+  "fuels": [
+    "Tela SIBAL (75% algodón / 25% fibra de vidrio)",
+    "PMMA (Acrílico)"
+  ],
+  "test_conditions": {
+    "gravity_g": 0.165,
+    "pressure_psia_tested": [8.2, 14.7],
+    "o2_percent_scan_at_8_2_psia": [37.0, 33.0, 29.0, 25.0],
+    "expected_lunar_loc_o2_percent": "24% - 26% O2 (a 8.2 psia)",
+    "pmma_hls_reference_test": "34% O2 a 8.2 psia",
+    "sibal_reference_test": "21% O2 a 14.7 psia (tasa de propagación descendente en 1/6 g simulado: 0.086 a 0.11 cm/s)"
+  },
+  "sensors": [
+    "2 Cámaras ópticas (tamaño, intensidad, color y tasa de propagación de llama)",
+    "Termopares (temperatura de llama y combustible)",
+    "Radiómetros",
+    "Sensores de concentración de O2, CO2, CO y humedad"
+  ],
+  "key_finding": "La evidencia numérica y de centrífugas/vuelos parabólicos indica que la gravedad lunar (0.165 g) representa casi la condición MÁS inflamable posible: mantiene suficiente flotabilidad lenta para alimentar oxígeno fresco a la base de la llama sin enfriarla ni apagarla por arrastre (blowoff) como ocurre en 1g. La tela SIBAL arde hacia abajo en gravedad lunar (0.11 cm/s) cuando en la Tierra (1g) se autoextingue al instante.",
+  "relevance_to_psi_and_artemis": "Cierra la brecha de datos entre 0g (ISS/PSI) y 1g (estándar terrestre NASA-STD-6001 Test 1) para validar materiales de cabina en el Human Landing System (HLS), bases lunares y rovers presurizados.",
+  "earth_application": "Mejora de modelos predictivos de propagación de llama a baja velocidad y estándares de seguridad contra incendios en atmósferas enriquecidas."
+}

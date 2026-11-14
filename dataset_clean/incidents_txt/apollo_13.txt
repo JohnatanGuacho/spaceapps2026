@@ -1,0 +1,47 @@
+================================================================================
+INCIDENTE HISTÓRICO: EXPLOSIÓN DEL TANQUE DE OXÍGENO EN APOLLO 13 (1970)
+Fuente: Report of Apollo 13 Review Board (NASA) & NASA SMA Lessons Learned
+================================================================================
+
+1. METADATOS DEL EVENTO
+- Misión: Apollo 13 (Tripulación: James A. Lovell, John L. Swigert, Fred W. Haise)
+- Fecha y hora del incidente: 13 de abril de 1970, a las 55:54:53 GET (Tiempo Transcurrido de Misión)
+- Ubicación: Módulo de Servicio (SM), Bahía 4 — Tanque de Oxígeno Criogénico N.º 2
+- Distancia de la Tierra: ~200,000 a 205,000 millas (~322,000–330,000 km) rumbo a la Luna
+- Gravedad del entorno: Microgravedad (0g / caída libre)
+
+2. CONDICIONES FÍSICAS Y PARÁMETROS DE COMBUSTIÓN
+- Medio oxidante: Oxígeno supercrítico puro (100% O2)
+- Presión nominal de operación del tanque: 865 a 935 psia
+- Pico de presión previo a la ruptura: Subió de 887 psia a 1,008 psia en ~13 segundos tras el encendido del ventilador, superando el límite estructural del tanque y volando el panel exterior de la Bahía 4.
+- Combustible involucrado: Aislamiento de politetrafluoroetileno (Teflón) del cableado interno del motor del ventilador y componentes de aluminio dentro del tanque.
+- Tasa de propagación de llama en Teflón (Dato clave 0g vs 1g del reporte):
+  * En microgravedad (0g): ~0.12 pulgadas/segundo (~0.30 cm/s).
+  * En gravedad terrestre (1g): ~0.25 pulgadas/segundo (~0.63 cm/s) hacia abajo.
+  * Nota física: La propagación más lenta en 0g explica el aumento gradual de presión durante 13 segundos antes de la explosión catastrófica.
+
+3. CADENA DE CAUSA RAÍZ (FALLO DE PREVENCIÓN Y MATERIALES)
+- Daño mecánico previo: El Tanque N.º 2 sufrió una caída de ~5 cm en fábrica (tras ser retirado de Apollo 10), desalineando su tubo de drenaje interno.
+- Incompatibilidad eléctrica (28V vs 65V DC): Los calentadores del tanque fueron rediseñados para operar con 65V DC en tierra, pero los interruptores termostáticos de seguridad (diseñados para abrirse a 80 °F / 26.6 °C) mantuvieron su especificación original de 28V DC.
+- Sobrecalentamiento en pruebas previas al lanzamiento (CDDT): Al no poder vaciar el tanque por el tubo dañado, se dejaron encendidos los calentadores durante 8 horas a 65V DC. Los termostatos se soldaron cerrados, elevando la temperatura interna entre 700 °F y 1,000 °F (370 °C a 538 °C) y degradando/quemando el aislamiento de Teflón de los cables.
+- Detonación en vuelo: A las 55:54:53 GET, la tripulación activó la agitación criogénica ("cryo-stir"). Un arco eléctrico en los cables desnudos encendió el Teflón degradado en atmósfera de 100% O2 a alta presión.
+
+4. IMPACTO OPERACIONAL Y PROTOCOLO DE SUPERVIVENCIA
+- Daño en cascada: La explosión del Tanque N.º 2 rompió una tubería o válvula del Tanque N.º 1, vaciando todo el oxígeno del Módulo de Servicio en ~3 horas.
+- Pérdida de sistemas vitales: Al quedarse sin oxígeno, las celdas de combustible dejaron de producir electricidad y agua, y el sistema de propulsión principal quedó inutilizable.
+- Respuesta de emergencia (Reacción / Corte):
+  * Apagado total de sistemas eléctricos del Módulo de Mando (Odyssey) para conservar baterías de reentrada (la temperatura interna cayó a 38 °F / 3.3 °C).
+  * Evacuación de la tripulación al Módulo Lunar (Aquarius) como "bote salvavidas" (extendiendo su autonomía diseñada de 45 horas a 90 horas).
+  * Improvisación de filtros de hidróxido de litio para eliminar el exceso de CO2 en cabina.
+
+5. LECCIONES APRENDIDAS Y REDISEÑOS DE INGENIERÍA (DESDE APOLLO 14)
+- Eliminación de fuentes de ignición internas: Se retiraron por completo los ventiladores agitadores y motores eléctricos del interior de los tanques de oxígeno.
+- Protección de materiales: Todo el cableado interno restante fue recubierto con fundas de acero inoxidable (eliminando polímeros expuestos como el Teflón en entornos ricos en O2).
+- Redundancia y aislamiento físico: Se añadió un tercer tanque de oxígeno aislado en una bahía separada del Módulo de Servicio para evitar fallos en cascada.
+- Actualización de sensores y corte: Se rediseñaron los termostatos para soportar 65V DC y se instalaron sensores de temperatura directos en el conjunto del calentador.
+
+6. CONEXIÓN CON INVESTIGACIONES ACTUALES EN NASA PSI (PARA EL DASHBOARD)
+- Prevención y selección de polímeros: Relacionado con BASS / BASS-II (PSI-26, PSI-25) y SAFFIRE (PSI-98/99/100) sobre límites de inflamabilidad de materiales sólidos en microgravedad.
+- Riesgo en atmósferas de alto oxígeno: Relacionado con ACME CFI-G (PSI-159, pruebas hasta 85% O2) y las alertas críticas para bases lunares (≥30% O2) y trajes EVA (100% O2).
+- Detección temprana sin llama visible: Relacionado con SAME / SAME-R (PSI-102, PSI-101) para detectar degradación térmica y aerosoles antes de una ignición crítica.
+================================================================================

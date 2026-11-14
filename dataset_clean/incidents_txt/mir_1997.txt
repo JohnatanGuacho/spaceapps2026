@@ -1,0 +1,45 @@
+================================================================================
+INCIDENTE HISTÓRICO: INCENDIO A BORDO DE LA ESTACIÓN ESPACIAL MIR (1997)
+Fuente: NASA Johnson Space Center — "25 Years Ago: Fire Aboard Space Station Mir" (2022)
+================================================================================
+
+1. METADATOS DEL EVENTO
+- Misión / Estación: Estación Espacial Mir (Operaciones conjuntas Fase 1 / Shuttle-Mir)
+- Fecha y momento del incidente: 24 de febrero de 1997, poco después de la cena
+- Tripulación a bordo (6 personas durante relevo): Valeri G. Korzun, Aleksandr Y. Kaleri, Jerry M. Linenger (NASA), Vasili V. Tsibliyev, Aleksandr I. Lazutkin (Roscosmos) y Reinhold Ewald (DLR/Alemania).
+- Ubicación exacta: Módulo Kvant-1 (donde estaba acoplada una de las dos naves de escape Soyuz).
+- Gravedad del entorno: Microgravedad (0g / órbita terrestre baja).
+- Relevancia histórica: Considerado el peor incendio en órbita en la historia de los vuelos espaciales tripulados.
+
+2. CONDICIONES FÍSICAS Y PARÁMETROS DE COMBUSTIÓN
+- Sistema involucrado: Generador de oxígeno de combustible sólido (SFOG, conocido como "Vika" o por sus siglas en ruso TGK), usado como respaldo de los generadores electrolíticos Elektron cuando había más de 3 tripulantes.
+- Reacción química y combustible: Cartuchos sólidos de perclorato de litio (LiClO4) que generan oxígeno químicamente al quemarse (1 cartucho = oxígeno para 1 tripulante por día).
+- Contaminante detonante: Hidrocarburos introducidos accidentalmente en el cartucho durante su fabricación/preparación en tierra (muy probablemente material de guantes de trabajo de látex).
+- Comportamiento de la llama en 0g:
+  * Duración: Varios minutos (ardió de forma autosostenida hasta agotar el reactivo sólido).
+  * Magnitud: Chorro de fuego de ~3 pies (~90 cm) de largo con chispas y fragmentos de metal fundido proyectados a través del módulo.
+  * Subproductos: Generación masiva de humo denso y tóxico que inundó los módulos de la estación, además de carbonización de paneles internos en Kvant-1.
+
+3. CADENA DE CAUSA RAÍZ (FALLO DE CONTROL DE MATERIALES Y CONTAMINACIÓN)
+- Historial previo: El sistema SFOG había sido utilizado sin incidentes más de 2,500 veces a bordo de Mir.
+- Fallo de pureza en tierra: Durante la preparación terrestre del cartucho de perclorato de litio, residuos de látex (hidrocarburos) quedaron dentro del contenedor.
+- Ignición en operación nominal: Al activar Lazutkin el generador en Kvant-1 para suplir la demanda de oxígeno de la tripulación ampliada de 6 personas, la mezcla de oxígeno liberado a alta temperatura con los hidrocarburos contaminantes provocó una combustión violenta fuera de control.
+
+4. IMPACTO OPERACIONAL Y PROTOCOLO DE SUPRESIÓN / REACCIÓN
+- Bloqueo de ruta de escape: El chorro de fuego cortó el acceso físico a la nave Soyuz acoplada en el extremo posterior de Kvant-1 (vehículo asignado para la evacuación de Korzun, Kaleri y Ewald).
+- Acción inmediata de la tripulación (Protocolo de Corte y Supresión):
+  * Protección respiratoria: La tripulación se colocó de inmediato máscaras de oxígeno / respiradores para evitar inhalación de humo tóxico.
+  * Estabilización física en 0g (Dato operacional clave): Al disparar un extintor en microgravedad, la fuerza de reacción empuja al operador hacia atrás; Jerry Linenger sostuvo físicamente a Valeri Korzun en su sitio mientras este rociaba espuma extintora sobre la llama y los demás le pasaban otros dos extintores.
+  * Contención: La espuma enfrió y contuvo las superficies adyacentes evitando la propagación estructural hasta que el cartucho sólido consumió su propio oxidante y se extinguió.
+  * Purga atmosférica: El sistema de soporte vital de la estación filtró y limpió el humo tóxico durante varias horas sin daños permanentes para la tripulación ni brechas en el casco.
+
+5. LECCIONES APRENDIDAS Y REDISEÑOS DE INGENIERÍA (APLICADOS EN LA ISS)
+- Control estricto de manufactura: Nuevos protocolos en tierra para evitar cualquier contaminación por hidrocarburos o materiales orgánicos (como látex) en cartuchos generadores de oxígeno.
+- Entrenamiento y soporte en tierra: Actualización de los simulacros de emergencia contra incendios para tripulaciones multinacionales y protocolos de respuesta rápida desde el control de misión.
+- Redundancia disímil en la ISS: La Estación Espacial Internacional implementó sistemas redundantes de generación de oxígeno mediante electrólisis de agua (3 unidades Elektron mejoradas en el segmento ruso + el Oxygen Generation System en el segmento estadounidense), dejando los cartuchos SFOG mejorados solo como respaldo secundario.
+
+6. CONEXIÓN CON INVESTIGACIONES ACTUALES EN NASA PSI (PARA EL DASHBOARD)
+- Propagación a gran escala en naves reales: Relacionado directamente con SAFFIRE-I, II y III (PSI-98, PSI-99, PSI-100), que estudiaron incendios de gran magnitud en naves de carga (Cygnus) para medir cómo crece el fuego y cómo afecta las rutas de evacuación.
+- Detección y gestión de humo denso en 0g: Relacionado con SAME y SAME-R (PSI-102, PSI-101) sobre el comportamiento y filtrado de partículas de humo y aerosoles en microgravedad tras un evento térmico.
+- Supresión y control de atmósferas ricas en O2: Relacionado con FLEX / FLEX-2 (PSI-69, PSI-68) y ACME CFI-G (PSI-159) sobre el peligro de reacciones exotérmicas cuando combustibles o contaminantes entran en contacto con concentraciones elevadas de oxígeno.
+================================================================================

@@ -1,0 +1,42 @@
+================================================================================
+INCIDENTE HISTÓRICO: INCENDIO EN PRUEBA EN PLATAFORMA DE APOLLO 1 (1967)
+Fuente: Report of Apollo 204 Review Board (Part IV & Part VI) & NASA History
+================================================================================
+
+1. METADATOS DEL EVENTO
+- Misión / Nave: Apollo 1 (AS-204) — Módulo de Mando CM-012 (Bloque I)
+- Fecha y hora del incidente: 27 de enero de 1967, reporte de fuego a las 23:31:04.7 GMT (6:31 p.m. EST)
+- Tripulación: Virgil "Gus" Grissom (Comandante), Edward H. White II (Piloto Senior), Roger B. Chaffee (Piloto)
+- Ubicación: Complejo de Lanzamiento 34 (Launch Pad 34), Cabo Kennedy, durante prueba "Plugs-Out" (simulación con energía interna en tierra).
+- Gravedad del entorno: Gravedad terrestre (1g) en plataforma de lanzamiento.
+
+2. CONDICIONES FÍSICAS Y PARÁMETROS DE COMBUSTIÓN
+- Atmósfera de cabina: 100% oxígeno puro presurizado a 16.7 psia (por encima de la presión atmosférica al nivel del mar de 14.7 psi).
+- Combustibles involucrados: Gran cantidad de materiales inflamables distribuidos cerca de fuentes eléctricas (mallas de nylon, Velcro, espumas, aislamiento de cables y refrigerante inflamable/corrosivo con fugas en uniones soldadas del sistema ambiental).
+- Cronología crítica de propagación (en segundos):
+  * 23:30:54.8 GMT: Pico anómalo de voltaje registrado en el Bus AC 2 (posible chispa inicial).
+  * 23:31:04.7 GMT: Primer reporte verbal de fuego en cabina por parte de la tripulación.
+  * 23:31:19.4 GMT (~15 s después): El aumento violento de temperatura y presión provoca la ruptura estructural del casco del Módulo de Mando, expulsando llamas hacia los niveles A-8 y A-7 de la torre.
+  * 23:31:22.4 GMT (~18 s después): Pérdida total de transmisión de voz y telemetría.
+
+3. CADENA DE CAUSA RAÍZ (FALLO DE PREVENCIÓN, ATMÓSFERA Y MATERIALES)
+- Fuente de ignición: Arco eléctrico probable en la sección inferior delantera de la bahía de equipos izquierda, cerca del cableado de instrumentación del Sistema de Control Ambiental (ECS / ECU).
+- Acelerador extremo: La combinación de 100% O2 a 16.7 psia redujo drásticamente la energía necesaria para la ignición y convirtió materiales comunes en altamente explosivos.
+- Control de materiales y calidad: Existían discrepancias en las especificaciones de materiales inflamables entre NASA y el contratista, cableado expuesto sin protección mecánica y fugas crónicas en tuberías soldadas.
+
+4. IMPACTO OPERACIONAL Y FALLO DE EGRESO / RESCATE
+- Imposibilidad de apertura de escotilla: La escotilla interior abría hacia adentro. La sobrepresión interna generada por el incendio ejerció una fuerza que hizo físicamente imposible abrirla antes de la ruptura del casco.
+- Retraso en el rescate externo: La nave contaba con tres escotillas independientes (cubierta protectora BPC, escotilla ablativa y escotilla interior) que requerían herramientas especiales. Debido al humo denso y sin equipos respiratorios adecuados para esa densidad, los técnicos tardaron ~5 minutos (hasta las 23:36 GMT) en abrir las tres escotillas.
+- Causa médica de fallecimiento: Asfixia rápida por inhalación de monóxido de carbono (CO) y gases tóxicos generados por la combustión de polímeros, agravada por quemaduras térmicas.
+
+5. LECCIONES APRENDIDAS Y REDISEÑOS DE INGENIERÍA (BLOQUE II)
+- Rediseño de escotilla de escape: Se reemplazó el sistema de tres escotillas por una escotilla unificada de apertura hacia afuera que puede abrirse desde el interior o exterior en 3 segundos.
+- Control estricto de materiales combustibles: Eliminación y reemplazo de plásticos, nylon y Velcro por materiales autoextinguibles (como tela Beta de fibra de vidrio) y aislamiento ignífugo.
+- Cambio de atmósfera en pruebas terrestres: Se eliminó el uso de 100% O2 a alta presión en plataforma, sustituyéndolo por una mezcla de dos gases (60% O2 / 40% Nitrógeno) durante los lanzamientos.
+- Protección eléctrica y pruebas a escala real: Uso de moldes 3D para fabricación de arneses eléctricos, eliminación de desconexiones con energía activa en cabina y obligatoriedad de pruebas de incendio en maquetas a escala real (full-scale mock-ups).
+
+6. CONEXIÓN CON INVESTIGACIONES ACTUALES EN NASA PSI (PARA EL DASHBOARD)
+- Límites de inflamabilidad en alto O2: Base histórica directa para ACME CFI-G (PSI-159, pruebas hasta 85% O2) y las alertas de seguridad para atmósferas enriquecidas en bases lunares (≥30% O2) y trajes EVA (100% O2 a 4.3 psi).
+- Selección y control de materiales sólidos: Conectado con BASS / BASS-II (PSI-26, PSI-25) sobre inflamabilidad de telas y plásticos, y con SAFFIRE-I/II/III (PSI-98, PSI-99, PSI-100), que materializan la recomendación del reporte de probar incendios a escala real en naves.
+- Toxicidad y detección de humo: Conectado con SAME / SAME-R (PSI-102, PSI-101) para la caracterización temprana de humo y aerosoles tóxicos antes de que comprometan la atmósfera respirable de la tripulación.
+================================================================================
