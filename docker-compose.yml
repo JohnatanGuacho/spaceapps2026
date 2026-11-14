@@ -1,0 +1,21 @@
+services:
+  emberwatch-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: devcore/emberwatch-backend:1.7.0
+    container_name: emberwatch-backend
+    restart: unless-stopped
+    ports:
+      - "8010:8010"
+    volumes:
+      - ./backend/emberwatch.db:/app/backend/emberwatch.db
+    environment:
+      - TZ=America/Guayaquil
+    networks:
+      - devcore-net
+
+networks:
+  devcore-net:
+    external: true
+    name: devcore-net
