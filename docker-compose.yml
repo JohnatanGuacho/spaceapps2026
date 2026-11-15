@@ -8,6 +8,8 @@ services:
     restart: unless-stopped
     ports:
       - "8010:8010"
+    env_file:
+      - ./backend/.env
     volumes:
       - ./backend/emberwatch.db:/app/backend/emberwatch.db
     environment:

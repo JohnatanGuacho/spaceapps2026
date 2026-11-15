@@ -6,4 +6,4 @@ RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r re
 COPY backend /app/backend
 COPY dataset_clean /app/dataset_clean
 EXPOSE 8010
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8010", "--workers", "2"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8010"]

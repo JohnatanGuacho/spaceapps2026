@@ -5,3 +5,5 @@ __pycache__/
 emberwatch.db
 .venv/ 
 .env 
+backend/.env
+backend/emberwatch.db
